@@ -1,0 +1,29 @@
+<!--
+body{background-color:white;margin:0;padding:0;overflow-x:hidden;}
+a{color:black;}
+a:hover{text-decoration:underline;}
+p.denglzc{font-size:15px;text-align:right;
+width:80%;margin:0 auto}
+div.search{height:50px;width:80%;margin:32px auto;}
+div.search_logo{float:left;height:50px;margin-right:45px;}
+div.search_field{float:left;height:50px;}
+div.search_field input:first-child{width:400px;height:30px;}
+div.search_field input:last-child{width:50px;height:30px;}
+div.search_field select{width:80px;height:30px;}
+div.view_cart{float:right;height:50px;text-align:right;width:350px;}
+div.view_cart  img{float:right;}
+div.navdiv{width:100%;background-color:Gainsboro;}
+ul.nav{list-style-type:none;padding:0;width:80%;height:38px;
+margin:0 auto;background-color: rgba(128, 128, 128, 0.08)}
+ul.nav li{float:left;text-align:center;}
+ul.nav a:link,ul.nav a:visited
+{
+display:block;
+padding:10px;text-decoration:none;width:98px;
+}
+ul.nav a:hover,ul.nav a:active{color:GhostWhite;}
+ul.nav a.here{color:GhostWhite;}
+div#content{width:80%; margin:0 auto;}
+.red{color:red;}
+.book_display{width:300px;height:300px;float:left;}
+-->

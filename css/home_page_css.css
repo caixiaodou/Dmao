@@ -1,0 +1,25 @@
+<!--
+
+/*show new books*/
+div#display_newbooks{width:800px;}
+div.newbooks{width:200px;height:204px;float:left;margin-bottom:16px;}
+div.newbooks a{width:150px;height:150px;display:block;}
+div.newbooks img{width:150px;height:150px;}
+div.newbooks p{margin:0;}
+div.newbooks p.nowrap{height:36px;overflow:hidden;}
+
+/*show hot books*/
+div#rank
+{
+position:absolute;top:200px;right:10%;
+z-index:99;width:200px;
+border:10px solid Gainsboro;color:red;
+
+}
+div#rank_head{border-bottom:5px solid Gainsboro;padding-bottom:10px;}
+div#rank_head  span{font-size:20px;}
+div#rank ul{float:left;line-height:25px;list-style-type:none;margin:0;padding:0;}
+div#rank li{float:left;width:200px;border-bottom:1px solid red;}
+
+
+-->

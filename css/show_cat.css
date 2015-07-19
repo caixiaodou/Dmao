@@ -1,0 +1,13 @@
+<!--
+
+/*show books in certain category*/
+div.cat_books{float:left;}
+div.cat_books a{width:200px;height:200px;display:block;}
+div.cat_books img{width:180px;height:180px;padding:10px;}
+div.cat_books p{margin:0;}
+div.cat_books p.nowrap{height:36px;overflow:hidden;
+width:160px;}
+
+
+
+-->
