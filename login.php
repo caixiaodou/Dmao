@@ -20,10 +20,7 @@
 	$user=new UserOperation();
 	$arr=$user->getUser($Info->UserTel);
 	
-	/*echo $Info->UserPassword;*/
-	/*var_dump($arr);
-	echo '<br/>';
-	echo $arr[UserPassword];*/
+	
 	if($Info->UserPassword==$arr[UserPassword])
 	{
 		$smarty->display('caixiaodou.html');

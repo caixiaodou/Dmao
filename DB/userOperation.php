@@ -18,12 +18,27 @@ class UserOperation
 		return true;
 	}
 	
+	function modifyUser()
+	{
+		
+	}
+	
 	function getUser($UserTel)
 	{
 		$user_db=new DB();
 		$result=$user_db->getUser($UserTel);	
 		
 		return $result;
+	}
+	
+	function getOrder()
+	{
+		
+	}
+	
+	function cancleOrder()
+	{
+		
 	}
 }
 

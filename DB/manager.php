@@ -1,24 +1,89 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-
-class Manager extends MY_Controller
-{
-		private $ManagerId;
+	class Manager
+	{
+		var $ManagerId;
 		var $ManagerPassword;
 		var $ManagerName;
 		
-		function __construct()
-	{
-			parent::__construct();
+		function _construct()
+		{
+			
+		}
+		
+		function addManager()
+		{
+			
+		}	
+		
+		function updateManager()
+		{
+			
+		}
+		
+		function getManager()
+		{
+			
+		}
+		
+		function deleteManager()
+		{
+			
+		}
+		
+		function addUser()
+		{
+			
+		}
+		
+		function getUser()
+		{
+			
+		}
+		
+		function getOrder()
+		{
+			
+		}
+		
+		function cancleOrder()
+		{
+			
+		}
+		
+		function deleteOrder()
+		{
+			
+		}
+		
+		function addProduct()
+		{
+			
+		}
+		
+		function getProduct()
+		{
+			
+		}
+		
+		function modifyProduct()
+		{
+			
+		}
+		
+		function changeProduct()
+		{
+			
+		}
+		
+		function deleteProduct()
+		{
+			
+		}
+		
 	}
 	
-	function addUser($Info)
-	{
-		$this->load->model('DB');
-		
-		$this->DB->insert('user',$Info);	
-	}
-}
+
+?>
 
 
