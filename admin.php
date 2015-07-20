@@ -6,20 +6,18 @@
  */
 
 require 'smarty/Smarty.class.php';
-require_once 'DB/user.php';
+
 $smarty = new Smarty;
 
-$smarty->debugging = false;
+$smarty->debugging = true;
 $smarty->caching = false;
 $smarty->cache_lifetime = 120;
 $smarty->left_delimiter="{";
 $smarty->right_delimiter="}";
-//$smarty->template_dir="html";
+//$smarty->template_dir="index";
 //$smarty->compile_dir=false;
 //$smarty->compile_dir="template_c";
 //$smarty->cache_dir="cache";
-
-$smarty->assign('jj','bb');
 
 
 $smarty->display('caixiaodou.html');
