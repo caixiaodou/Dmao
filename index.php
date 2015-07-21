@@ -13,9 +13,9 @@ switch ($op){
     	include 'controllers/caixiaodou.php';
     	break;
 	case 'register':
-    	if (!$isLogin) {
+    	/*if (!$isLogin) {
       		header('Location: main.php?op=login');
-    	}
+    	}*/
     	include 'controllers/register.php';
     	break;
 		
@@ -23,28 +23,27 @@ switch ($op){
    		if ($isLogin) {
       		header('Location: index.php');
     	}
-		$_SESSION['login'] =true;
     	include 'controllers/login.php';
     	break;
-  	case 'list':
-    	if (!$isLogin) {
+  	case 'member':
+    	/*if (!$isLogin) {
       		header('Location: main.php?op=login');
-    	}
-    	include 'controllers/list.php';
+    	}*/
+    	include 'controllers/member.php';
     	break;
-  	case 'add':
-    	if (!$isLogin) {
+  	case 'help':
+    	/*if (!$isLogin) {
       		header('Location: main.php?op=login');
-    	}
-    	include 'controllers/add.php';
+    	}*/
+    	include 'controllers/help.php';
     	break;
-  	case 'edit':
+  	case 'caidou':
     	if (!$isLogin) {
-      		header('Location: main.php?op=login');
+      		header('Location: index.php?op=login');
     	}
-    	include 'controllers/edit.php';
+    	include 'controllers/caidou.php';
     	break;
-	case 'del':
+	/*case 'del':
     if (!$isLogin) {
       header('Location: main.php?op=login');
     }
@@ -55,7 +54,7 @@ switch ($op){
     header('Location: main.php?op=login');
     // unset($_SESSION['login']);
     // session_destroy();
-    break;
+    break;*/
   default:
     echo '无效操作';
     exit;
