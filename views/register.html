@@ -52,12 +52,12 @@
             <div class="nav_right"> <!--nav_right开始-->
             	<div class="nav_right_up">
                 	<ul>
-                    	<li class="one1"><a href="login.html">登陆</a></li>
-                        <li class="two1"><a href="register.html">注册</a></li>
+                    	<li class="one1"><a href="index.php?op=login">登陆</a></li>
+                        <li class="two1"><a href="index.php?op=register">注册</a></li>
                         <li class="three1"><a href="#">开始订餐</a></li>
-                        <li class="four1"><a href="member.html">会员中心</a></li>
-                        <li class="five1"><a href="#">帮助中心</a></li>
-                        <li class="six1"><a href="caidou.html">我的菜兜</a></li>
+                        <li class="four1"><a href="index.php?op=member">会员中心</a></li>
+                        <li class="five1"><a href="index.php?op=help">帮助中心</a></li>
+                        <li class="six1"><a href="index.php?op=caidou">我的菜兜</a></li>
                     </ul>
                 </div>
                 <div class="nav_right_down">
@@ -87,12 +87,12 @@
         
         <div class="register_right"> <!--右边注册填写区-->
         	<div class="register_right_up"><!--右边注册-->
-            	<div class="text1"><a href="login.html">【立即登录】</a></div>
+            	<div class="text1"><a href="index.php?op=login">【立即登录】</a></div>
                 <div class="text2">我已经注册</div>
                 <div class="text3">用户注册</div>
             </div>
         </div><!--右边注册填写区结束-->
-        <form class="register_right_down" action="register.php" method="post"><!--注册表单-->
+        <form class="register_right_down" action="index.php?op=register" method="post"><!--注册表单-->
   			<div class="seg"> <!--表单开始-->
             <p><span class="star">*</span>
             <span class="text">昵称:</p></span><input class="frame" type="text" name="UserName" />
